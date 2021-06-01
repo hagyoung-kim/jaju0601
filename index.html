@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>JAJU</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+
+<!--
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+<link href = "https://fonts.googleapis.com/css2? family = Nanum + Gothic : wght @ 400; 700; 800 & family = Roboto : wght @ 100; 300; 400; 500; 700; 900 & display = swap "rel ="stylesheet ">
+-->
+
+<!--    <style>@import url ( 'https://fonts.googleapis.com/css2? family = Nanum + Gothic : wght @ 400; 700; 800 & display = swap');</style>-->
+    
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    
+    
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-ui-1.12.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    
+    <script src="js/script.js"></script>
+    
+    <link rel="shortcut icon" type="image/x-icon" href="image/logo/logo_favicon.png">
+    
+</head>
+<body>
+    <ul id="skipmenu">
+     <ul>
+         <li>
+             <a href="#" title="상단컨텐츠로 이동">상단컨텐츠</a>
+         </li>
+         <li>
+             <a href="#" title="메인컨텐츠로 이동">메인컨텐츠</a>
+         </li>
+         <li>
+             <a href="#" title="하단컨텐츠로 이동">하단컨텐츠</a>
+         </li>
+     </ul>
+ </ul><!--skipmenu-->
+  
+  
+  <header id="header_wrap">
+      <div id="header_inner">
+         
+          <h1 id="logo">
+              <a href="#" title="홈으로 이동">
+                 <img class="mobile" src="image/logo/logo_scroll.png" alt="mobile로고">
+                  <img class="mobile02" src="image/logo/logo_mini.png" alt="mobile로고">
+              </a>
+          </h1>
+          
+          
+          <div id="mobile_btn">
+                    <a href="#">
+                        <span class="line01"></span>
+                        <span class="line02"></span>
+                        <span class="line03"></span>
+                    </a>
+                </div>
+          
+          
+          <div id="nav">
+              <ul class="clearfix">
+                
+                  <li>
+                      <a href="#">MENU</a>
+                      <ul class="submenu clearfix">
+                          <li>
+                              <a href="#">NEW</a>
+                          </li>
+                          <li>
+                              <a href="#">BEST</a>
+                          </li>
+                          <li>
+                              <a href="#">LIVING</a>
+                          </li>
+                          
+                          <li>
+                              <a href="#">BEAUTY</a>
+                          </li>
+                          <li>
+                              <a href="#">FASHION</a>
+                          </li><li>
+                              <a href="#">KIDS</a>
+                          </li>
+                          <li>
+                              <a href="#">TRAVLE</a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li>
+                      <a href="#">EVENT</a>
+                  </li>
+                  <li>
+                      <a href="#">SALE</a>
+                  </li>
+                  
+                  
+                  
+            <h1 id="logo">
+              <a href="#" title="홈으로 이동">
+                  <img class="pc" src="image/logo/logo.png" alt="pc로고">
+                  <img class="mobile" src="image/logo/logo_scroll.png" alt="mobile로고">
+                  <img class="mobile02" src="image/logo/logo_mini.png" alt="mobile로고">
+              </a>
+            </h1>
+                  
+                  
+                  <li>
+                      <a href="#">LOGIN</a>
+                  </li>
+                  <li>
+                      <a href="#">MAPAGE</a>
+                  </li>
+                  <li>
+                      <a href="#">CART</a>
+                  </li>
+              </ul>
+          </div>
+          
+          
+          
+          <nav id="mobile_nav">
+              <ul class="clearfix">
+                
+                  <li>
+                      <a href="#">MENU</a>
+                      <ul class="submenu clearfix">
+                          <li>
+                              <a href="#">NEW</a>
+                          </li>
+                          <li>
+                              <a href="#">BEST</a>
+                          </li>
+                          <li>
+                              <a href="#">LIVING</a>
+                          </li>
+                          <li>
+                              <a href="#">BEAUTY</a>
+                          </li>
+                          <li>
+                              <a href="#">FASHION</a>
+                          </li><li>
+                              <a href="#">KIDS</a>
+                          </li>
+                          <li>
+                              <a href="#">TRAVLE</a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li>
+                      <a href="#">EVENT</a>
+                  </li>
+                  <li>
+                      <a href="#">SALE</a>
+                  </li>
+                  <li>
+                      <a href="#">LOGIN</a>
+                  </li>
+    
+                  <li>
+                      <a href="#">MAPAGE</a>
+                  </li>
+                  <li>
+                      <a href="#">CART</a>
+                  </li>
+              </ul>=
+          </nav>
+          
+          
+          <div class="search">
+              <a class="fixed" href="#">검색</a> 
+              <a class="scroll" href="#">검색</a> 
+          </div>
+          
+      </div>
+  </header>
+  
+  
+  <div id="visual_wrap">
+      <ul class="clearfix">
+          
+          <li class="img01">
+              <a href="#" title="이동">
+                  <img src="image/visual01.gif" alt="이미지">
+                  <p class="txt">혹시, 살 때 되지 않았나요?</p>
+                  <p class="tit">주기적인 교체<span>가 필요한</span><br>필수 생활아이템!</p>
+              </a>
+          </li>
+          
+          <li class="img02">
+              <a href="#" title="이동">
+                  <img src="image/visual02.gif" alt="이미지">
+                  <p class="txt">그냥 담고 따르기만 해도 완벽해<br>눈길을 사로잡는 자주 플레이팅</p>
+                  <p class="tit"><span>우리끼리 </span>방구석 홈파티!</p>
+              </a>
+          </li>
+          <li class="img03">
+              <a href="#" title="이동">
+                  <img src="image/visual03.gif" alt="이미지">
+                  <p class="txt">나의 24시간을 "CLEAN &amp; COSY" 하게 채워주는<br>자주 생활/뷰티/가전 아이템</p>
+                  <p class="tit02">최대 60% OFF</p>
+              </a>
+          </li>
+          <li class="img02">
+              <a href="#" title="이동">
+                  <img src="image/visual02.gif" alt="이미지">
+                  <p class="txt">그냥 담고 따르기만 해도 완벽해<br>눈길을 사로잡는 자주 플레이팅</p>
+                  <p class="tit"><span>우리끼리 </span>방구석 홈파티!</p>
+              </a>
+          </li>
+
+      </ul>
+  </div>
+  
+  
+  <div id="content01_wrap">
+      <div id="content01_inner">
+          <h2 id="con_logo">
+              <img src="image/logo/content_tit.png">
+          </h2>
+      
+         
+          <div id="content_view">
+              <ul class="clearfix">
+                  <li>
+                      <a href="#">
+                          <img src="image/con01_img01.gif" alt="이미지">
+                          <div class="box">
+                              <p class="con_tit">마스크 백과사전</p>
+                              <p class="con_txt">모두를 위한 올바른 선택, 올바른 착용!</p>
+                          </div>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <img src="image/con01_img02.gif" alt="이미지">
+                          <div class="box">
+                              <p class="con_tit">12월의 신상을 소개합니다</p>
+                              <p class="con_txt">포근하고 안락한 집콕 생활</p>
+                          </div>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <img src="image/con01_img03.gif" alt="이미지">
+                          <div class="box">
+                              <p class="con_tit">건강한 선택, 자주 팬티</p>
+                              <p class="con_txt">자주 팬티 2장 이상 구매시 20% 할인</p>
+                          </div>
+                      </a>
+                  </li>
+              </ul>
+            </div><!--content_view-->
+              
+
+              <div class="btn">
+                  <a href="#">VIEW MORE
+                      <img src="image/icon_arrow_bottom.png">
+                  </a>
+              </div><!--btn-->
+            
+      </div><!--content01_inner-->
+  </div><!--content01_wrap-->
+  
+  
+  
+  <div id="live_wrap">
+      <div id="live_inner">
+         
+         <div id="live_title">
+             <h3 class="title">JAJU LIVE</h3>
+             
+             <div class="btn">
+                  <a href="#">VIEW MORE
+                      <img src="image/icon_arrow_right.png">
+                  </a>
+            </div>
+          </div><!--live_title-->
+              
+          
+          <div id="live_view">
+              <ul class="clearfix">
+                  <li>
+                     <a href="#" title="이동">
+                         <div class="live_img">
+                             <img src="image/live_img01.gif">  
+                         </div>
+                         
+                         <div class="live_txt">
+                              <p>JAJU LIVE</p>
+                              <p class="live_tit">깨끗한 숨, 공기청정기</p>
+                              <p class="live_txt">1방1공기청정기시대<br>#방마다집중케어 #나만의공청기</p>
+                         </div>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#" title="이동">
+                         <div class="live_img">
+                             <img src="image/live_img02.gif">  
+                         </div>
+                         
+                         <div class="live_txt">
+                              <p>JAJU LIVE</p>
+                              <p class="live_tit">나를 위한 꿀잠 시리즈</p>
+                              <p class="live_txt">#꿀잠아이템 #숙면테라피<br>당신의 오늘을 토닥토닥</p>
+                         </div>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#" title="이동">
+                         <div class="live_img">
+                             <img src="image/live_img03.gif">  
+                         </div>
+                         
+                         <div class="live_txt">
+                              <p>JAJU LIVE</p>
+                              <p class="live_tit">발열 이너웨어<br>자주 온溫 시리즈</p>
+                              <p class="live_txt">히터를 켠 듯 따뜻하게 #따뜻함을켜다</p>
+                         </div>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#" title="이동">
+                         <div class="live_img">
+                             <img src="image/live_img04.gif">  
+                         </div>
+                         
+                         <div class="live_txt">
+                              <p>JAJU LIVE</p>
+                              <p class="live_tit">덤블 보아 퍼 시리즈</p>
+                              <p class="live_txt">#가볍지만 #포근함은두배<br>요즘 대세 플리스 아우터</p>
+                         </div>
+                     </a>
+                  </li>
+                  
+              </ul>
+          </div>
+          
+      </div><!--live_inner-->
+  </div><!--live_wrap-->
+  
+  
+  
+  
+  
+  <div id="new_wrap">
+      <div id="new_inner">
+         
+         <div id="new_title">
+              <h3 class="title">NEW ARRIVALS</h3>
+
+              <div class="btn">
+                  <a href="#">VIEW MORE
+                      <img src="image/icon_arrow_right.png">
+                  </a>
+              </div><!--btn-->
+        </div>
+        
+        
+        
+        
+        
+        <div id="new_product">
+            <ul class="clearfix">
+                <li>
+                    <a href="#" title="이동">
+                       <div class="new_img">
+                            <img src="image/new01.gif" alt="이미지">
+                        </div>
+                        <div class="new_txt">
+                            <p class="new_tit">윈터 코튼 팬티 5P</p>
+                            <p class="price">9,900원</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="이동">
+                       <div class="new_img">
+                            <img src="image/new02.gif" alt="이미지">
+                        </div>
+                        <div class="new_txt">
+                            <p class="new_tit">접어서 사용하는 따뜻한 히터</p>
+                            <p class="price">55,900원</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="이동">
+                       <div class="new_img">
+                            <img src="image/new04.gif" alt="이미지">
+                        </div>
+                        <div class="new_txt">
+                            <p class="new_tit">스프링피버 퍼퓸 핸드크림_50ML</p>
+                            <p class="price">7,800원</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="이동">
+                       <div class="new_img">
+                            <img src="image/new04.gif" alt="이미지">
+                        </div>
+                        <div class="new_txt">
+                            <p class="new_tit">따뜻한 깊은 잠 온열 수면 안대</p>
+                            <p class="price">59,900원</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        
+    </div><!--new_inner-->
+</div><!--new_wrap-->
+  
+  
+  
+  
+  
+  
+  <div id="notice_wrap">
+      <div id="notice_inner">
+          <div id="notice">
+              <ul class="clearfix">
+                  <li>
+                      <a href="#">
+                          <img src="image/icon_notice01.gif">
+                          <p>새롭게 시작하는 JAJU클럽에 가입하시고,<br>특별한 혜택을 누리세요.</p>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <img src="image/icon_notice02.gif">
+                          <p>전국에 있는 자주의<br>지역별 매장을 확인하세요.</p>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <img src="image/icon_notice03.gif">
+                          <p>실용성 넘치는 상품들을<br>다시 없는 합리적인 가격으로<br>만나보세요.</p>
+                      </a>
+                  </li>
+              </ul>
+          </div>
+      </div><!--notice_inner-->
+  </div><!--notice_wrap-->
+  
+  
+  
+  
+    <footer id="footer_wrap">
+        <div id="footer_inner">
+            
+            
+            <div id="footer_pc">
+            
+               <h1 id="f_logo">
+                  <a href="#" title="로고">
+                      <img src="image/logo/logo_footer.png" alt="홈으로이동">
+                  </a>
+              </h1>
+              
+               
+          <div id="f_left" class="clearfix">
+              
+              <div id="gnb">
+                  <ul class="clearfix">
+                      <li><a href="#" title="이동">회사소개</a></li>
+                      <li><a href="#" title="이동">이용약관</a></li>
+                      <li><a href="#" title="이동">개인정보처리방침</a></li>
+                      <li><a href="#" title="이동">입점상담</a></li>
+                      <li><a href="#" title="이동">매장안내</a></li>
+                  </ul>
+              </div>
+              
+              <div class="f_info">
+                  <p class="address_pc">㈜신세계인터내셔날 서울특별시 강남구 도산대로 449 (청담동) 대표이사 : 장재영 사업자등록번<br>호 : 201-81-53657 통신판매업 신고번호 : 강남-13797 개인정보보호책임자 : 유영석 호스팅사업<br>자 : ㈜신세계아이앤씨 고객센터 : 1644-4490 siv_cs@sikorea.co.kr</p>
+                  
+                  <p class="copy">
+                      © 2016 SHINSEGAE INTERNATIONAL. ALL RIGHTS RESERVED
+                  </p>
+              </div><!--f_info-->
+          </div><!--f_left-->
+          
+          <div id="f_right" class="clearfix">
+              <div id="center">
+                  <p>CS CENTER<br><span>1644-4490</span></p>
+                  <p class="time">(평일 09:00 ~ 18:00)<br>E-mail : siv_cs@sikorea.co.kr</p>
+              </div>
+              
+              <div class="sns">
+                  <p>ABOUT S.I.VILLAGE</p>
+                  <ul class="clearfix">
+                      <li>
+                          <a href="#" title="이동">
+                              <img src="image/logo/icon_insta.png" alt="인스타그램">
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#" title="이동">
+                              <img src="image/logo/icon_youtube.png" alt="유튜브">
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#" title="이동">
+                              <img src="image/logo/icon_blog.png" alt="블로그">
+                          </a>
+                      </li>
+                  </ul>
+              </div><!--sns-->
+          </div><!--f_right-->
+            
+        </div><!--footer_pc-->
+            
+            
+            
+            
+            <div id="footer_m">
+                
+                <div id="ftop">
+                    <nav class="fnav">
+                        <ul class="clearfix">
+
+                           <li>
+                              <a href="#" title="이동">회사소개</a>
+                          </li>
+                          <li>
+                              <a href="#" title="이동">이용약관</a>
+                          </li>
+                          <li>
+                              <a href="#" title="이동">개인정보처리방침</a>
+                          </li>
+                          <li>
+                              <a href="#" title="이동">입점상담</a>
+                          </li>
+                          <li>
+                              <a href="#" title="이동">매장안내</a>
+                          </li>
+
+                        </ul>
+                    </nav>
+
+                </div><!--ftop-->
+
+                <div id="fbottom">
+                    <div class="address_m">
+                        <button>자주 사업자 정보<span class="addr_arrow">▼</span></button>
+
+                        <div class="addr_wrap">
+                            대표이사 : 장재영 | 사업자등록번호 : 201-81-53657 | 서울특별시 강남구 도산대로 449 (청담동)  |  T. 1644-4490  |  E. siv_cs@sikorea.co.kr
+                        </div><!--addr_wrap-->
+
+                    </div><!--address_m-->
+
+
+                    <p class="copy">© 2016 SHINSEGAE INTERNATIONAL. ALL RIGHTS RESERVED</p>
+
+                    <div class="sns_nav">
+                        <ul>
+                            <li class="f_instagram">
+                                <a href="#" title="인스타그램 바로가기"></a>
+                            </li>
+                            <li class="f_youtube">
+                                <a href="#" title="페이스북 바로가기"></a>
+                            </li>
+                            <li class="f_blog">
+                                <a href="#" title="블로그 바로가기"></a>
+                            </li>
+                        </ul>
+                    </div><!--sns_nav-->
+
+                </div><!--fbottom-->
+                
+            </div><!--footer_m-->
+            
+            
+        </div><!--footer_inner-->
+    </footer><!--footer_wrap-->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+   
+    
+</body>
+</html>
